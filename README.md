@@ -8,6 +8,7 @@
 
 
 ### Performance
+scale 2 or 4?
 | Dataset | SRCNN | SRCNN-keras |
 | :------ | :---- | :---------- |
 | Set5    | 30.48 | 33.10 ?     |
