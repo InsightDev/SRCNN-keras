@@ -9,7 +9,7 @@
 
 ### Performance
 
-scale 2 or 4?  
+upscale 2 or 4?  
 
 | Dataset | SRCNN | SRCNN-keras |
 | :------ | :---- | :---------- |
