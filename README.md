@@ -9,12 +9,13 @@
 
 ### Performance
 
-upscale 2 or 4?  
+an upscaling factor of 4?  
 
 | Dataset | SRCNN | SRCNN-keras |
 | :------ | :---- | :---------- |
 | Set5    | 30.48 | 33.10 ?     |
 | Set14   | 27.49 | 29.45 ?     |
+| B100    | 26.90 | 00.00 ?     |
 
 
 ### Other
