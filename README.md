@@ -6,7 +6,7 @@
 
 ### Paper
 
-[Image Super-Resolution Using Deep Convolutional Networks](https://arxiv.org/abs/1501.00092)
+* [Image Super-Resolution Using Deep Convolutional Networks](https://arxiv.org/abs/1501.00092)
 
 
 
