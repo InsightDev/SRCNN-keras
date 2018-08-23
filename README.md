@@ -8,7 +8,9 @@
 
 
 ### Performance
-scale 2 or 4?
+
+scale 2 or 4?  
+
 | Dataset | SRCNN | SRCNN-keras |
 | :------ | :---- | :---------- |
 | Set5    | 30.48 | 33.10 ?     |
@@ -16,4 +18,5 @@ scale 2 or 4?
 
 
 ### Other
+
 * https://github.com/InsightDev/SRDenseNet-keras  
