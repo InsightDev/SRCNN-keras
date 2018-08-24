@@ -13,9 +13,10 @@
 ### Training
 
 ### Result
-Origin - Bicubic - SRCNN
-![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/butterfly_GT.png)
-![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/butterfly_GT.bmp)
+Origin - Bicubic(cv2) - SRCNN
+![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/butterfly_GT.png)  
+Origin - Bicubic(PIL) - SRCNN
+![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/butterfly_GT.bmp)  
 
 
 ### Performance
