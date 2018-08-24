@@ -20,7 +20,7 @@ Origin - Bicubic(resize with PIL) - SRCNN
 
 ### Performance
 
-* PSNR
+* PSNR, training on the 91 images.
 
 | Dataset | Scale | Bicubic | SRCNN-paper | SRCNN-keras |
 | :------ | :---- | :------ | :---------- | :---------- |
