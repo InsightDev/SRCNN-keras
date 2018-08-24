@@ -19,13 +19,13 @@
 
 ### Performance
 
-an upscaling factor of 4?  
+* an upscaling factor of 4  
 
-| Dataset | SRCNN | SRCNN-keras |
-| :------ | :---- | :---------- |
-| Set5    | 30.48 | 33.10 ?     |
-| Set14   | 27.49 | 29.45 ?     |
-| B100    | 26.90 | 00.00 ?     |
+| Dataset | Bicubic | SRCNN-paper | SRCNN-keras |
+| :------ | :------ | :---------- | :---------- |
+| Set5    | 28.42   | 30.49       | 33.10 ?     |
+| Set14   | 26.00   | 27.50       | 29.45 ?     |
+| B100    | *1 *    | 00.00       | 00.00 ?     |
 
 
 ### Other
