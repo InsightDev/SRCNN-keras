@@ -2,13 +2,16 @@
 
 * [Image Super-Resolution Using Deep Convolutional Networks](https://arxiv.org/abs/1501.00092)
 
+
+### Training
+
 * Ubuntu 18.04.1 LTS
 * python2.7
 * tensorflow_gpu-1.10.0
 
-### Training
 
 ### Result
+
 Origin - Bicubic(cv2) - SRCNN
 ![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/butterfly_GT.png)  
 Origin - Bicubic(PIL) - SRCNN
