@@ -10,7 +10,7 @@
 
 
 
-### Train
+### Training
 
 ### Result
 Origin - Bicubic - SRCNN
