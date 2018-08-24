@@ -32,8 +32,8 @@ Origin - Bicubic(resize with PIL) - SRCNN
 |         | 4x    | 26.00   | 27.50       |             |
 
 ### Trick
-The resize function in python is different from Matlab. So far, only using the bicubic of Matlab could achieve the best PSNR score, because it has anti-aliasing function. Please take a look at this [link](https://www.reddit.com/r/MachineLearning/comments/6vdo51/p_matlab_bicubic_imresize_implemented_in_python).
-
+The resize function in python is different from Matlab. So far, only using the bicubic of Matlab could achieve the best PSNR score, because it has anti-aliasing function. Please take a look at this [link](https://www.reddit.com/r/MachineLearning/comments/6vdo51/p_matlab_bicubic_imresize_implemented_in_python).  
+Origin - Bicubic(resize with cv2) - Bicubic(resize with PIL)  
 
 
 ### Other
