@@ -30,6 +30,9 @@
 |         | 3x    | 27.54   | 29.30       |             |
 |         | 4x    | 26.00   | 27.50       | 29.45 ?     |
 
+the resize function in python is different from Matlab. So far, only using the bicubic of Matlab could achieve the best PSNR score, because it has anti-aliasing function. Please take a look at this link.
+https://www.reddit.com/r/MachineLearning/comments/6vdo51/p_matlab_bicubic_imresize_implemented_in_python
+
 
 ### Other
 
