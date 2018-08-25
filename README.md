@@ -13,9 +13,9 @@
 ### Result
 
 Origin - Bicubic(resize with cv2) - SRCNN
-![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/data/butterfly_GT.png)  
+![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/src/data/butterfly_GT.png)  
 Origin - Bicubic(resize with PIL) - SRCNN
-![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/data/butterfly_GT.bmp)  
+![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/src/data/butterfly_GT.bmp)  
 
 
 ### Performance
