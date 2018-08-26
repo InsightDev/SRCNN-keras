@@ -20,7 +20,7 @@ Origin - Bicubic(resize with PIL) - SRCNN
 
 ### Performance
 
-* PSNR, training on the 91 images. n1=?, n2=?
+* PSNR, training on the 91 images. f1 = 9, f2 = 5, f3 = 5, n1 = 64, n2=32  
 
 | Dataset | Scale | Bicubic | SRCNN-paper | SRCNN-keras |
 | :------ | :---- | :------ | :---------- | :---------- |
@@ -31,7 +31,7 @@ Origin - Bicubic(resize with PIL) - SRCNN
 |         | 3x    | 27.54   | 29.30       |             |
 |         | 4x    | 26.00   | 27.50       |             |
 
-We adopt the model with good performance-speed trade-off: a three-layer network with f1 = 9, f2 = 5, f3 = 5, n1 = 64, and n2 = 32 trained on the ImageNet. For each upscaling factor, we train a specific network for that factor.
+"We adopt the model with good performance-speed trade-off: a three-layer network with f1 = 9, f2 = 5, f3 = 5, n1 = 64, and n2 = 32 trained on the ImageNet. For each upscaling factor, we train a specific network for that factor."
 
 ### Trick
 The resize function in python is different from Matlab. So far, only using the bicubic of Matlab could achieve the best PSNR score, because it has anti-aliasing function. Please take a look at this [link](https://www.reddit.com/r/MachineLearning/comments/6vdo51/p_matlab_bicubic_imresize_implemented_in_python).  
