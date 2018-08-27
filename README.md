@@ -9,6 +9,7 @@
 * python2.7
 * tensorflow_gpu-1.10.0
 
+![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/src/data/loss.png)  
 
 ### Result
 
