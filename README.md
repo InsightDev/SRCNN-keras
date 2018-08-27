@@ -25,7 +25,7 @@ Origin - Bicubic(resize with PIL) - SRCNN
 
 | Dataset | Scale | Bicubic | SRCNN-paper | SRCNN-keras |
 | :------ | :---- | :------ | :---------- | :---------- |
-| Set5    | 2x    | 33.66   | 36.66       | 36.037751   |
+| Set5    | 2x    | 33.66   | 36.66       | 36.046619   |
 |         | 3x    | 30.39   | 32.75       |             |
 |         | 4x    | 28.42   | 30.49       |             |
 | Set14   | 2x    | 30.23   | 32.45       | 30.984 ?    |
