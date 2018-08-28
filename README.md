@@ -32,7 +32,7 @@ Origin - Bicubic(resize with PIL) - SRCNN
 |         | 3x    | 27.54   | 29.30       |             |
 |         | 4x    | 26.00   | 27.50       |             |
 
-The result is lower then paper, because the SRCNN-paper is trained on ImageNet, matlab imresize. see Train.
+The result is lower then the paper, because the SRCNN-paper is trained on ImageNet, and it use matlab's imresize.
 
 "We adopt the model with good performance-speed trade-off: a three-layer network with f1 = 9, f2 = 5, f3 = 5, n1 = 64, and n2 = 32 trained on the ImageNet. For each upscaling factor, we train a specific network for that factor."
 
