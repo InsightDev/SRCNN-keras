@@ -1,4 +1,4 @@
-# SRCNN-keras
+# Keras implementation for SRCNN, FSRCNN, SRDenseNet
 
 * [Image Super-Resolution Using Deep Convolutional Networks](https://arxiv.org/abs/1501.00092)
 
