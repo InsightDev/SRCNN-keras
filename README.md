@@ -6,3 +6,4 @@
 * python2.7
 * tensorflow_gpu-1.10.0
 
+TODO
