@@ -8,7 +8,7 @@
 
 ### Training
 
-SRCNN-keras is training on the 91 images. I use 91 as the batch_size, just random crop from each image. An epoch has 100 steps, and 1000 epochs is trained, 100k steps. matlab's imresize(bicubic) is used. It takes about an hour on my GTX1060 6G GPU.
+SRCNN-keras is training on the 91 images. I use 91 as the batch_size, just random crop from each image. An epoch has 100 steps, and 1000 epochs is trained, 100k steps. matlab's imresize(bicubic) is used. It takes about an hour to train the model on my GTX1060 6G GPU.
 
 ![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/SRCNN/docs/loss.png)  
 
