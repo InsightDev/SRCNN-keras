@@ -8,7 +8,7 @@
 
 ### Training
 
-SRCNN-keras is training on the 91 images. I use 91 as the batch_size, just random crop from each image. An epoch has 100 steps, and 1000 epochs is trained - 100k steps.
+SRCNN-keras is training on the 91 images. I use 91 as the batch_size, just random crop from each image. An epoch has 100 steps, and 1000 epochs is trained - 100k steps. matlab's imresize is used.
 
 ![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/src/data/loss.png)  
 
@@ -33,7 +33,7 @@ Origin - Bicubic(resize with PIL) - SRCNN
 |         | 3x    | 27.54   | 29.30       |             |
 |         | 4x    | 26.00   | 27.50       |             |
 
-The result is lower then the paper, because the SRCNN-paper is trained on ImageNet, and it use matlab's imresize.
+The result is lower then the paper, because the SRCNN-paper is trained on ImageNet.
 
 "We adopt the model with good performance-speed trade-off: a three-layer network with f1 = 9, f2 = 5, f3 = 5, n1 = 64, and n2 = 32 trained on the ImageNet. For each upscaling factor, we train a specific network for that factor."
 
