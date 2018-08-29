@@ -8,7 +8,7 @@
 
 ### Training
 
-SRCNN-keras is training on the 91 images. I use 91 as the batch_size, just random crop from each image. An epoch has 100 steps, and 1000 epoches is trained - 100k steps.
+SRCNN-keras is training on the 91 images. I use 91 as the batch_size, just random crop from each image. An epoch has 100 steps, and 1000 epochs is trained - 100k steps.
 
 ![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/src/data/loss.png)  
 
