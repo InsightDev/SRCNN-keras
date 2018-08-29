@@ -10,14 +10,14 @@
 
 SRCNN-keras is training on the 91 images. I use 91 as the batch_size, just random crop from each image. An epoch has 100 steps, and 1000 epochs is trained, 100k steps. matlab's imresize(bicubic) is used. It takes about an hour on my GTX1060 6G GPU.
 
-![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/src/docs/loss.png)  
+![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/SRCNN/docs/loss.png)  
 
 ### Result
 
 Origin - Bicubic(resize with cv2) - SRCNN
-![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/src/data/butterfly_GT.png)  
+![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/SRCNN/docs/butterfly_GT.png)  
 Origin - Bicubic(resize with PIL) - SRCNN
-![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/src/data/butterfly_GT.bmp)  
+![Image text](https://github.com/InsightDev/SRCNN-keras/blob/master/SRCNN/docs/butterfly_GT.bmp)  
 
 
 ### Performance
@@ -41,7 +41,3 @@ The result is lower then the paper, because the SRCNN-paper is trained on ImageN
 The resize function in python is different from Matlab. So far, only using the bicubic of Matlab could achieve the best PSNR score, because it has anti-aliasing function. Please take a look at this [link](https://www.reddit.com/r/MachineLearning/comments/6vdo51/p_matlab_bicubic_imresize_implemented_in_python).  
 Origin - Bicubic(resize with cv2) - Bicubic(resize with PIL)  
 
-
-### Other
-
-* https://github.com/InsightDev/SRDenseNet-keras  
