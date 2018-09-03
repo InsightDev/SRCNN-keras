@@ -31,7 +31,7 @@ Origin - Bicubic(resize with PIL) - SRCNN
 |         | 4x    | 28.42   | 30.49       | 30.185307   |
 | Set14   | 2x    | 30.23   | 32.45       | 32.302839   |
 |         | 3x    | 27.54   | 29.30       |             |
-|         | 4x    | 26.00   | 27.50       |             |
+|         | 4x    | 26.00   | 27.50       | 27.266484   |
 
 The result is lower then the paper, because the SRCNN-paper is trained on ImageNet.
 
